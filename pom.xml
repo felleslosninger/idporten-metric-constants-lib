@@ -43,7 +43,7 @@
         <repository>
             <id>github</id>
             <name>Digdir Github felleslosninger</name>
-            <url>https://maven.pkg.github.com/idporten-metric-constants-lib</url>
+            <url>https://maven.pkg.github.com/${project.artifactId}</url>
         </repository>
     </distributionManagement>
 
