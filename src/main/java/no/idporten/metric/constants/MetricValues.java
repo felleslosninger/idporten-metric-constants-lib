@@ -11,8 +11,11 @@ public class MetricValues {
     public final static String EXTERNAL_SYSTEM_DB= "database";
     public final static String EXCEPTION_TYPE_CONNECT= "connect";
     public final static String EXCEPTION_TYPE_TIMEOUT= "timeout";
-    public final static String OIDC_OPERATIONS_PAR = "par";
-    public final static String OIDC_OPERATIONS_TOKEN = "token";
+
+    // oidc operations
+    public final static String OIDC_OPERATION_PAR = "par";
+    public final static String OIDC_OPERATION_TOKEN = "token";
+    public final static String OIDC_OPERATION_AUTHORIZE = "authorize";
 
 
 }
