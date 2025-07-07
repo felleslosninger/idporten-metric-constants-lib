@@ -8,5 +8,4 @@ public class MetricNames {
     public final static String APP_EXCEPTION_INTERNAL_API_NAME= "app_exceptions_internal_api";
     public final static String APP_OIDC_OPERATION_COUNTER_NAME= "app_oidc_operations_counter";
     public final static String APP_OIDC_OPERATION_DURATION_NAME = "app_oidc_operations_duration_auth_and_token";
-
 }
