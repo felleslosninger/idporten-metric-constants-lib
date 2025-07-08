@@ -16,7 +16,7 @@ public class MetricValues {
     public final static String OIDC_OPERATION_PAR = "par";
     public final static String OIDC_OPERATION_TOKEN = "token";
     public final static String OIDC_OPERATION_AUTHORIZE = "authorize";
-    public final static String OIDC_OPERATION_DURATION_PAR_AND_AUTH = "duration_par_and_auth";
+    public final static String OIDC_OPERATION_AUTH_DURATION = "auth_duration";
 
 
 }
