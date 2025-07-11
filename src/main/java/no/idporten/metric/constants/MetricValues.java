@@ -13,9 +13,6 @@ public class MetricValues {
     public final static String EXCEPTION_TYPE_TIMEOUT= "timeout";
 
     // oidc operations
-    public final static String OIDC_OPERATION_PAR = "par";
-    public final static String OIDC_OPERATION_TOKEN = "token";
-    public final static String OIDC_OPERATION_AUTHORIZE = "authorize";
     public final static String OIDC_OPERATION_AUTH_DURATION = "auth_duration";
 
 
