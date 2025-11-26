@@ -5,8 +5,6 @@ Sjekklister:
 Eigar:
 
 - [ ] Vurdert breaking changes
-- [ ] Avhengigheter til andre saker avklart
-- [ ] Testet mot en eller flere tjenester som bruker biblioteket
 - [ ] Unngått å legge til unødvendige avhengigheter
 - [ ] Har oppdatert dependabots
 
