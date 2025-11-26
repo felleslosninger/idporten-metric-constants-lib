@@ -7,4 +7,5 @@ public class MetricCategories {
         public final static String EID = "eid";
         public final static String OIDC_INTEGRATION = "oidc_integration";
         public final static String DETAILS = "details";
+        public final static String AUTHORIZATIONDETAILS_TYPE = "authorizationdetails_type";
 }

@@ -8,5 +8,6 @@ public class MetricDescriptions {
     public final static String APP_EXCEPTION_EXTERNAL_API_DESCRIPTION = "Counter for API connection problems from application to external API";
     public final static String APP_EXCEPTION_GENERIC_DESCRIPTION = "Counter for connection problems from application to somewhere else";
     public final static String APP_OIDC_OPERATION_DESCRIPTION = "Counter for oidc operations";
+    public final static String APP_AUTHORIZATIONDETAILS_TYPE_DESCRIPTION = "Counter requests for each AuthorizationDetails Type, type in details tag";
 
 }
