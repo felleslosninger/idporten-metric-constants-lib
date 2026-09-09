@@ -9,7 +9,7 @@ jobs:
     uses: felleslosninger/github-workflows/.github/workflows/ci-pr-checks-lib.yml@main
     permissions:
       contents: write
-      packages: write
+      pull-requests: write
     with:
       java-version: 21
     secrets: inherit
