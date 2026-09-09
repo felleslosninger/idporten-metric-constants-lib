@@ -1,6 +1,6 @@
 # This workflow publishes the library to GitHub Packages when a release is created
 # It delegates the build/publish steps to a reusable workflow in felleslosninger/github-workflows
-name: Release to github packages
+name: Release to GitHub Packages
 
 on:
   release:
