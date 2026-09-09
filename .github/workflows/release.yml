@@ -5,7 +5,7 @@ name: Release to GitHub Packages
 on:
   release:
     types:
-      - created
+      - published
 
 jobs:
   call-workflow-build-publish:
