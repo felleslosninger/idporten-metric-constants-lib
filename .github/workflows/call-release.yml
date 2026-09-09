@@ -7,12 +7,10 @@ on:
 
 jobs:
   call-workflow-maven-deploy:
-    uses: felleslosninger/github-workflows/.github/workflows/ci-maven-install-deploy-lib.yml@main
+    uses: felleslosninger/github-workflows/.github/workflows/ci-pr-checks-lib.yml@main
     permissions:
       contents: write
       packages: write
     with:
       java-version: 21
-      package-version: ${{ github.event.release.tag_name }}
-      deployment-repository: ${{ github.repository }}
     secrets: inherit
