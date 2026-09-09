@@ -16,7 +16,6 @@ public class MetricValues {
     public final static String OIDC_OPERATION_AUTH_DURATION = "auth_duration";
 
     // status of a request to an external api: the http status code, or IO_ERROR when no response was received
-    public final static String STATUS_IO_ERROR = "IO_ERROR";
-
+    public final static String STATUS_IO_ERROR = "io_error";
 
 }
