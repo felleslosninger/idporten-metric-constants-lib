@@ -8,7 +8,7 @@ on:
       - created
 
 jobs:
-  call-workflow-maven-build:
+  call-workflow-build-publish:
     uses: felleslosninger/github-workflows/.github/workflows/ci-build-publish-lib.yml@main
     permissions:
       contents: write

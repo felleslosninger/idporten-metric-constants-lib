@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  call-workflow-maven-deploy:
+  call-workflow-check-pr:
     uses: felleslosninger/github-workflows/.github/workflows/ci-pr-checks-lib.yml@main
     permissions:
       contents: write
