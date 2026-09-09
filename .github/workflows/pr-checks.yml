@@ -1,0 +1,16 @@
+name: Release to github packages
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  call-workflow-maven-deploy:
+    uses: felleslosninger/github-workflows/.github/workflows/ci-pr-checks-lib.yml@main
+    permissions:
+      contents: write
+      packages: write
+    with:
+      java-version: 21
+    secrets: inherit
