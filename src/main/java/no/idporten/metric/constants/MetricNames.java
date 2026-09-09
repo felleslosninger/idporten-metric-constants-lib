@@ -1,8 +1,8 @@
 package no.idporten.metric.constants;
 
 public class MetricNames {
-    public final static String APP_EXCEPTION_NAME= "app_exceptions";
-
+    public final static String APP_EXCEPTION_NAME= "app_exceptions";    
+    public final static String APP_EXTERNAL_API_DURATION = "app_external_api_duration";
 
     // Only for idporten-login for dynamic create counters since we allready has the APP_EXCEPTION_NAME defined, then new counters with same name is not added.
     public final static String APP_EXCEPTION_INTERNAL_API_NAME= "app_exceptions_internal_api";
